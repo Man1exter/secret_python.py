@@ -1,6 +1,6 @@
 
 def choice_way():
-    pass
+    choice_from_menu = int(input("Your number => "))
 
 def menu():
     print("..CHOICE YOUR WAY TO LEARN NEW METHOD IN PYTHON..")
