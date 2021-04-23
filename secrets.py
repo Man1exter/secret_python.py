@@ -20,7 +20,7 @@ def keylogger():
 
 def choice_way():
 
-    choice_from_menu = int(input("Your number => "))
+    choice_from_menu = int(input("Your choice number ==> "))
 
     if choice_from_menu == 1:
         keylogger()
@@ -32,7 +32,7 @@ def choice_way():
         modules()
     elif choice_from_menu == 5:
         long_password()
-    elif choice_from_menu == 5:
+    elif choice_from_menu == 6:
         movies()
     else:
         print("Wrong number.....")
@@ -44,6 +44,7 @@ def menu():
     print("[3]")
     print("[4]")
     print("[5]")
+    print("[6]")
 
 def main():
     menu()
