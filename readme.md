@@ -1,6 +1,6 @@
 <strong>THE PANEL CAN BE:</strong>
 
-*keylogger*
+*key-logger*
 
 *tips/tricks*
 
