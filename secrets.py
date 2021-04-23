@@ -1,5 +1,8 @@
 
 
+def movies():
+    pass
+
 def long_password():
     pass
 
@@ -29,6 +32,8 @@ def choice_way():
         modules()
     elif choice_from_menu == 5:
         long_password()
+    elif choice_from_menu == 5:
+        movies()
     else:
         print("Wrong number.....")
 
