@@ -39,12 +39,12 @@ def choice_way():
 
 def menu():
     print("..CHOICE YOUR WAY TO LEARN NEW METHOD IN PYTHON..")
-    print("[1] KEYLOGGER")
-    print("[2] TIPS/TRICKS")
-    print("[3] PASSWORD(HIDE)")
-    print("[4] MODULES")
-    print("[5] LONG PASSWORD")
-    print("[6] MOVIES IN PYTHON")
+    print(" => [1]  => KEYLOGGER")
+    print(" => [2]  => TIPS/TRICKS")
+    print(" => [3]  => PASSWORD(HIDE)")
+    print(" => [4]  => MODULES")
+    print(" => [5]  => LONG PASSWORD")
+    print(" => [6]  => MOVIES IN PYTHON")
 
 def main():
     menu()
