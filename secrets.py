@@ -1,21 +1,34 @@
 
 
+def long_password():
+    pass
 
+def modules():
+    pass
+
+def password():
+    pass
+
+def tips_tricks():
+    pass
+
+def keylogger():
+    print(" ")
 
 def choice_way():
 
     choice_from_menu = int(input("Your number => "))
 
     if choice_from_menu == 1:
-        pass
+        keylogger()
     elif choice_from_menu == 2:
-        pass
+        tips_tricks()
     elif choice_from_menu == 3:
-        pass
+        password()
     elif choice_from_menu == 4:
-        pass
+        modules()
     elif choice_from_menu == 5:
-        pass
+        long_password()
     else:
         print("Wrong number.....")
 
