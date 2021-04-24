@@ -1,10 +1,20 @@
-
+import random
+import string
 
 def movies():
     pass
 
 def long_password():
-    pass
+    letters = string.ascii_lowercase
+    letters_up = string.ascii_uppercase
+
+    size = int(input("How many [letters] in your password ===> "))
+
+    result_str = ''.join(random.choice(letters) for i in range(size))
+    result_str_up = ''.join(random.choice(letters_up) for i in range(size))
+
+    print("...UPPERCASE... Random string of size - ", size, "is =====> ", result_str)
+    print("...LOWERCASE... Random string of size - ", size, "is =====> ", result_str_up)
 
 def modules():
     pass
