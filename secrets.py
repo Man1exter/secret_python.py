@@ -27,6 +27,17 @@ def tips_tricks():
 
 def keylogger():
     print("........Keylogger to => [Login/Password] <= in Python............")
+    print("You can see how strong is your data...")
+    print("[1/2] LOGIN AND PASSWORD = 10 LENGTH")
+
+    login = input("login: ")
+    password = input("password: ")
+    print("Data login = > ", login," - password ", password)
+
+    if len(login) >= 10:
+        print("POWER OF LOGIN ======> 1/4 ")
+        if len(password) >= 10:
+            print("POWER OF PASSWORD ======> 2/4")
 
 def choice_way():
 
