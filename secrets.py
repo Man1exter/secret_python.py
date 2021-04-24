@@ -26,7 +26,34 @@ def tips_tricks():
     pass
 
 def keylogger():
-    print(" ")
+    print("........Keylogger to => [Login/Password] <= in Python............")
+    print("You can see how strong is your data...")
+    print("[1/2] LOGIN AND PASSWORD = 10 LENGTH")
+    print("[2/2] LOGIN AND PASSWORD = COUNT 3X [A]")
+
+    login = input("login: ")
+    password = input("password: ")
+    print("Data login = > ", login," - password ", password)
+
+    if len(login) >= 10:
+        print("POWER OF LOGIN ======> 1/4 ")
+        if len(password) >= 10:
+            print("POWER OF PASSWORD ======> 2/4")
+        else:
+            print("You can lose your login too fast")
+    else:
+        print("You can lose your password too fast")
+
+
+    if login.count("a") >= 3:
+        print("POWER OF LOGIN ======> 3/4 ")
+        if login.count("a") >= 3:
+            print("POWER OF PASSWORD ======> 4/4")
+        else:
+            print("You can lose your login too fast")
+    else:
+        print("You can lose your password too fast")
+
 
 def choice_way():
 
@@ -49,7 +76,7 @@ def choice_way():
 
 def menu():
     print("..CHOICE YOUR WAY TO LEARN NEW METHOD IN PYTHON..")
-    print(" => [1]  => KEYLOGGER")
+    print(" => [1]  => KEYLOGGER [LOGIN/PASSWORD]")
     print(" => [2]  => TIPS/TRICKS")
     print(" => [3]  => PASSWORD(HIDE)")
     print(" => [4]  => MODULES")
