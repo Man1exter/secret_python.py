@@ -26,7 +26,7 @@ def tips_tricks():
     pass
 
 def keylogger():
-    print("........Keylogger in Python............")
+    print("........Keylogger to => [Login/Password] <= in Python............")
 
 def choice_way():
 
@@ -49,7 +49,7 @@ def choice_way():
 
 def menu():
     print("..CHOICE YOUR WAY TO LEARN NEW METHOD IN PYTHON..")
-    print(" => [1]  => KEYLOGGER")
+    print(" => [1]  => KEYLOGGER [LOGIN/PASSWORD]")
     print(" => [2]  => TIPS/TRICKS")
     print(" => [3]  => PASSWORD(HIDE)")
     print(" => [4]  => MODULES")
