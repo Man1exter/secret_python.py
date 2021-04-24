@@ -1,10 +1,10 @@
-
+import random
 
 def movies():
     pass
 
 def long_password():
-    pass
+    size = int(input("How many [letters/numbers] in your password ===> "))
 
 def modules():
     pass
