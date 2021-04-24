@@ -38,6 +38,11 @@ def keylogger():
         print("POWER OF LOGIN ======> 1/4 ")
         if len(password) >= 10:
             print("POWER OF PASSWORD ======> 2/4")
+        else:
+            print("You can lose your login too fast")
+    else:
+        print("You can lose your password too fast")
+
 
 def choice_way():
 
