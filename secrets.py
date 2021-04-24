@@ -1,9 +1,11 @@
 import random
+import string
 
 def movies():
     pass
 
 def long_password():
+    letters = string.ascii_lowercase
     size = int(input("How many [letters/numbers] in your password ===> "))
 
 def modules():
