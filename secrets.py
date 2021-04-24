@@ -29,6 +29,7 @@ def keylogger():
     print("........Keylogger to => [Login/Password] <= in Python............")
     print("You can see how strong is your data...")
     print("[1/2] LOGIN AND PASSWORD = 10 LENGTH")
+    print("[2/2] LOGIN AND PASSWORD = COUNT 3X [A]")
 
     login = input("login: ")
     password = input("password: ")
@@ -38,6 +39,16 @@ def keylogger():
         print("POWER OF LOGIN ======> 1/4 ")
         if len(password) >= 10:
             print("POWER OF PASSWORD ======> 2/4")
+        else:
+            print("You can lose your login too fast")
+    else:
+        print("You can lose your password too fast")
+
+
+    if login.count("a") >= 3:
+        print("POWER OF LOGIN ======> 3/4 ")
+        if login.count("a") >= 3:
+            print("POWER OF PASSWORD ======> 4/4")
         else:
             print("You can lose your login too fast")
     else:
