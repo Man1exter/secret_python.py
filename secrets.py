@@ -2,7 +2,7 @@ import random
 import string
 
 def movies():
-    pass
+    print("secret movies in python..(info about it BONUS)")
 
 def long_password():
     letters = string.ascii_lowercase
