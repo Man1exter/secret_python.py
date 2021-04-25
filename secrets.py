@@ -23,7 +23,7 @@ def password():
     pass
 
 def tips_tricks():
-    pass
+    print("..info about tricks/tips in python and info about it..")
 
 def keylogger():
     print("........Keylogger to => [Login/Password] <= in Python............")
