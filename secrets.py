@@ -19,7 +19,9 @@ def long_password():
 def modules():
 
     print("..3 secret modules in python with info about it..")
-    
+    print("from ..... import ......")
+    print("for example from random import randint")
+
 
 def password():
 
