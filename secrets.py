@@ -23,6 +23,7 @@ def modules():
     print("for example from random import randint")
 
     numbers = int(input("How many letters/numbers must have to use with password ====> "))
+    passwords = int(input("How many passwords draw in section ====> "))
 
 
 def password():
