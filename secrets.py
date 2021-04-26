@@ -17,10 +17,14 @@ def long_password():
     print("...LOWERCASE... Random string of size - ", size, "is =====> ", result_str_up)
 
 def modules():
+
     print("..3 secret modules in python with info about it..")
+    
 
 def password():
-    pass
+
+    print("..show the best result with strong password to your account..")
+
 
 def tips_tricks():
     print("..info about tricks/tips in python and info about it..")
