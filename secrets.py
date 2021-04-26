@@ -24,7 +24,6 @@ def modules():
 
 
 def password():
-
     print("..show the best result with strong password to your account..")
 
 
