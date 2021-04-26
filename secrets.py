@@ -22,6 +22,8 @@ def modules():
     print("from ..... import ......")
     print("for example from random import randint")
 
+    numbers = int(input("How many letters/numbers must have to use with password ====> "))
+
 
 def password():
     print("..show the best result with strong password to your account..")
