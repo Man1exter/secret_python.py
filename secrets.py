@@ -30,6 +30,8 @@ def password():
 
 def tips_tricks():
     print("..info about tricks/tips in python and info about it..")
+    way = int(input("your way from menu => "))
+    menuv2()
 
 def keylogger():
     print("........Keylogger to => [Login/Password] <= in Python............")
@@ -79,6 +81,9 @@ def choice_way():
         movies()
     else:
         print("Wrong number.....")
+
+def menuv2():
+    print(" = > MENU < = ")
 
 def menu():
     print("..CHOICE YOUR WAY TO LEARN NEW METHOD IN PYTHON..")
