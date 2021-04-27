@@ -32,6 +32,26 @@ def tips_tricks():
     print("..info about tricks/tips in python and info about it..")
     way = int(input("your way from menu => "))
     menuv2()
+    if way == 1:
+        t1()
+    elif way == 2:
+        t2()
+    elif way == 3:
+        t3()
+    elif way == 4:
+        t4()
+    elif way == 5:
+        t5()
+    elif way == 6:
+        t6()
+    elif way == 7:
+        t7()
+    elif way == 8:
+        t8()
+    elif way == 9:
+        t9()
+    else:
+        print("Wrong number.....")
 
 def keylogger():
     print("........Keylogger to => [Login/Password] <= in Python............")
@@ -84,15 +104,42 @@ def choice_way():
 
 def menuv2():
     print(" = > MENU < = ")
-    print("[1] Merge Dictionaries")
-    print("[2] String Joins")
-    print("[3] Max occurance in List")
-    print("[4] Value Swapping")
-    print("[5] Range into List")
-    print("[6] List Comprehension")
-    print("[7] Dict Comprehension")
-    print("[8] Adding Lists")
-    print("[9] Extraction of Nested Lists")
+    print("[1] ..Merge Dictionaries")
+    print("[2] ..String Joins")
+    print("[3] ..Max occurance in List")
+    print("[4] ..Value Swapping")
+    print("[5] ..Range into List")
+    print("[6] ..List Comprehension")
+    print("[7] ..Dict Comprehension")
+    print("[8] ..Adding Lists")
+    print("[9] ..Extraction of Nested Lists")
+
+def t1():
+    pass
+
+def t2():
+    pass
+
+def t3():
+    pass
+
+def t4():
+    pass
+
+def t5():
+    pass
+
+def t6():
+    pass
+
+def t7():
+    pass
+
+def t8():
+    pass
+
+def t9():
+    pass
 
 def menu():
     print("..CHOICE YOUR WAY TO LEARN NEW METHOD IN PYTHON..")
