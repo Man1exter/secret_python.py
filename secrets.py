@@ -115,31 +115,31 @@ def menuv2():
     print("[9] ..Extraction of Nested Lists")
 
 def t1():
-    pass
+    print("[1] ..Merge Dictionaries")
 
 def t2():
-    pass
+    print("[2] ..String Joins")
 
 def t3():
-    pass
+    print("[3] ..Max occurance in List")
 
 def t4():
-    pass
+    print("[4] ..Value Swapping")
 
 def t5():
-    pass
+    print("[5] ..Range into List")
 
 def t6():
-    pass
+    print("[6] ..List Comprehension")
 
 def t7():
-    pass
+    print("[7] ..Dict Comprehension")
 
 def t8():
-    pass
+    print("[8] ..Adding Lists")
 
 def t9():
-    pass
+    print("[9] ..Extraction of Nested Lists")
 
 def menu():
     print("..CHOICE YOUR WAY TO LEARN NEW METHOD IN PYTHON..")
