@@ -116,30 +116,39 @@ def menuv2():
 
 def t1():
     print("[1] ..Merge Dictionaries")
+    print("----------------------------")
 
 def t2():
     print("[2] ..String Joins")
+    print("----------------------------")
 
 def t3():
     print("[3] ..Max occurance in List")
+    print("----------------------------")
 
 def t4():
     print("[4] ..Value Swapping")
+    print("----------------------------")
 
 def t5():
     print("[5] ..Range into List")
+    print("----------------------------")
 
 def t6():
     print("[6] ..List Comprehension")
+    print("----------------------------")
 
 def t7():
     print("[7] ..Dict Comprehension")
+    print("----------------------------")
 
 def t8():
     print("[8] ..Adding Lists")
+    print("----------------------------")
 
 def t9():
     print("[9] ..Extraction of Nested Lists")
+    print("----------------------------")
 
 def menu():
     print("..CHOICE YOUR WAY TO LEARN NEW METHOD IN PYTHON..")
