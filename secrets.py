@@ -84,6 +84,15 @@ def choice_way():
 
 def menuv2():
     print(" = > MENU < = ")
+    print("[1] Merge Dictionaries")
+    print("[2] String Joins")
+    print("[3] Max occurance in List")
+    print("[4] Value Swapping")
+    print("[5] Range into List")
+    print("[6] List Comprehension")
+    print("[7] Dict Comprehension")
+    print("[8] Adding Lists")
+    print("[9] Extraction of Nested Lists")
 
 def menu():
     print("..CHOICE YOUR WAY TO LEARN NEW METHOD IN PYTHON..")
