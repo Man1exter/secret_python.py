@@ -101,6 +101,8 @@ def choice_way():
         long_password()
     elif choice_from_menu == 6:
         movies()
+    elif choice_from_menu == 7:
+        calendar_show()
     else:
         print("Wrong number.....")
 
@@ -195,6 +197,12 @@ def t9():
     list = [[1],[2],[3],[4],[5]]
     sum(list, [])
 
+def calendar_show():
+    year = int(input("Write year => "))
+    month = int(input("Write month(number) => "))
+    print(" ")
+    print(calendar.month(year,month))
+
 def menu():
     print("..CHOICE YOUR WAY TO LEARN NEW METHOD IN PYTHON..")
     print(" => [1]  => KEYLOGGER [LOGIN/PASSWORD]")
@@ -203,6 +211,7 @@ def menu():
     print(" => [4]  => MODULES")
     print(" => [5]  => LONG PASSWORD")
     print(" => [6]  => MOVIES IN PYTHON")
+    print(" => [7]  => CALENDAR")
 
 def main():
     menu()
