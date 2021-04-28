@@ -198,8 +198,9 @@ def t9():
     sum(list, [])
 
 def calendar_show():
-    year = int(input("Write year => "))
-    month = int(input("Write month(number) => "))
+    
+    year = int(input("Write year(..actually => 2021..) => "))
+    month = int(input("Write month(..number..) => "))
     print(" ")
     print(calendar.month(year,month))
 
