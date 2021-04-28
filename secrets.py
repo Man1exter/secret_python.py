@@ -1,5 +1,6 @@
 import random
 import string
+from string import ascii_lowercase
 
 def movies():
     print("secret movies in python..(info about it BONUS)")
@@ -166,6 +167,8 @@ def t6():
 def t7():
     print("[7] ..Dict Comprehension")
     print("----------------------------")
+
+
 
 def t8():
     print("[8] ..Adding Lists")
