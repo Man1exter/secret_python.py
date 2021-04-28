@@ -168,7 +168,11 @@ def t7():
     print("[7] ..Dict Comprehension")
     print("----------------------------")
 
-
+    {i:j for i,j in enumerate(ascii_lowercase)if i < 6}
+    {0:'a',1:"b",2:"c",3:"d",4:"e",5:"f"}
+    print("---- .. ----- .. ------")
+    {j:i for j,i in enumerate(ascii_lowercase)if i < 6}
+    {0:'a',1:"b",2:"c",3:"d",4:"e",5:"f"}
 
 def t8():
     print("[8] ..Adding Lists")
