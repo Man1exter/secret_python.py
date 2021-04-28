@@ -117,7 +117,7 @@ def menuv2():
 def t1():
     print("[1] ..Merge Dictionaries")
     print("----------------------------")
-    
+
     d1 = {"a": 1, "b": 2}
     d2 = {"c": 3, "d": 4}
     dict(d1, **d2)
@@ -126,6 +126,12 @@ def t1():
 def t2():
     print("[2] ..String Joins")
     print("----------------------------")
+
+    arr = ["Hey","bro","my","python","crew"]
+    " <--> ".join(arr)
+    " - ".join(arr)
+    " ... ".join(arr)
+    
 
 def t3():
     print("[3] ..Max occurance in List")
