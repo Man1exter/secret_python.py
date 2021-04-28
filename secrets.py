@@ -1,5 +1,6 @@
 import random
 import string
+from string import ascii_lowercase
 
 def movies():
     print("secret movies in python..(info about it BONUS)")
@@ -30,6 +31,28 @@ def password():
 
 def tips_tricks():
     print("..info about tricks/tips in python and info about it..")
+    way = int(input("your way from menu => "))
+    menuv2()
+    if way == 1:
+        t1()
+    elif way == 2:
+        t2()
+    elif way == 3:
+        t3()
+    elif way == 4:
+        t4()
+    elif way == 5:
+        t5()
+    elif way == 6:
+        t6()
+    elif way == 7:
+        t7()
+    elif way == 8:
+        t8()
+    elif way == 9:
+        t9()
+    else:
+        print("Wrong number.....")
 
 def keylogger():
     print("........Keylogger to => [Login/Password] <= in Python............")
@@ -79,6 +102,97 @@ def choice_way():
         movies()
     else:
         print("Wrong number.....")
+
+def menuv2():
+    print(" = > MENU < = ")
+    print("[1] ..Merge Dictionaries")
+    print("[2] ..String Joins")
+    print("[3] ..Max occurance in List")
+    print("[4] ..Value Swapping")
+    print("[5] ..Range into List")
+    print("[6] ..List Comprehension")
+    print("[7] ..Dict Comprehension")
+    print("[8] ..Adding Lists")
+    print("[9] ..Extraction of Nested Lists")
+
+def t1():
+    print("[1] ..Merge Dictionaries")
+    print("----------------------------")
+
+    d1 = {"a": 1, "b": 2}
+    d2 = {"c": 3, "d": 4}
+    dict(d1, **d2)
+    {**d1, **d2}
+
+def t2():
+    print("[2] ..String Joins")
+    print("----------------------------")
+
+    arr = ["Hey","bro","my","python","crew"]
+    " <--> ".join(arr)
+    " - ".join(arr)
+    " ... ".join(arr)
+    
+
+def t3():
+    print("[3] ..Max occurance in List")
+    print("----------------------------")
+
+    arr = [1,2,3,4,4,4,6,7,7,9]
+    max(set(arr),key = arr.count)
+
+def t4():
+    print("[4] ..Value Swapping")
+    print("----------------------------")
+
+    a,b = 2,5
+    a,b = b,a
+    print(a)
+    print(b)
+
+def t5():
+    print("[5] ..Range into List")
+    print("----------------------------")
+
+    arr = list(range(1,11))
+    print(arr)
+
+def t6():
+    print("[6] ..List Comprehension")
+    print("----------------------------")
+
+    sqr = [ele ** 2 for ele in range(1,11)]
+    print(sqr)
+
+def t7():
+    print("[7] ..Dict Comprehension")
+    print("----------------------------")
+
+    {i:j for i,j in enumerate(ascii_lowercase)if i < 6}
+    {0:'a',1:"b",2:"c",3:"d",4:"e",5:"f"}
+    print("---- .. ----- .. ------")
+    {j:i for j,i in enumerate(ascii_lowercase)if i < 6}
+    {0:'a',1:"b",2:"c",3:"d",4:"e",5:"f"}
+
+    {i: i for i in range(6)}
+
+def t8():
+    print("[8] ..Adding Lists")
+    print("----------------------------")
+
+    am1 = [1,2,3,4]
+    am2 = [5,6,7,8]
+    am3 = am1 + am2
+    print(am3)
+    am1.append(am2)
+    print(am1)
+
+def t9():
+    print("[9] ..Extraction of Nested Lists")
+    print("----------------------------")
+
+    list = [[1],[2],[3],[4],[5]]
+    sum(list, [])
 
 def menu():
     print("..CHOICE YOUR WAY TO LEARN NEW METHOD IN PYTHON..")
