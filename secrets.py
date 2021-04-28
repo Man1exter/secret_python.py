@@ -180,9 +180,19 @@ def t8():
     print("[8] ..Adding Lists")
     print("----------------------------")
 
+    am1 = [1,2,3,4]
+    am2 = [5,6,7,8]
+    am3 = am1 + am2
+    print(am3)
+    am1.append(am2)
+    print(am1)
+
 def t9():
     print("[9] ..Extraction of Nested Lists")
     print("----------------------------")
+
+    list = [[1],[2],[3],[4],[5]]
+    sum(list, [])
 
 def menu():
     print("..CHOICE YOUR WAY TO LEARN NEW METHOD IN PYTHON..")
