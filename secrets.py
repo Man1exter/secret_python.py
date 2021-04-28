@@ -174,6 +174,8 @@ def t7():
     {j:i for j,i in enumerate(ascii_lowercase)if i < 6}
     {0:'a',1:"b",2:"c",3:"d",4:"e",5:"f"}
 
+    {i: i for i in range(6)}
+
 def t8():
     print("[8] ..Adding Lists")
     print("----------------------------")
