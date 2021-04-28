@@ -137,9 +137,17 @@ def t3():
     print("[3] ..Max occurance in List")
     print("----------------------------")
 
+    arr = [1,2,3,4,4,4,6,7,7,9]
+    max(set(arr),key = arr.count)
+
 def t4():
     print("[4] ..Value Swapping")
     print("----------------------------")
+
+    a,b = 2,5
+    a,b = b,a
+    print(a)
+    print(b)
 
 def t5():
     print("[5] ..Range into List")
