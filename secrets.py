@@ -153,9 +153,15 @@ def t5():
     print("[5] ..Range into List")
     print("----------------------------")
 
+    arr = list(range(1,11))
+    print(arr)
+
 def t6():
     print("[6] ..List Comprehension")
     print("----------------------------")
+
+    sqr = [ele ** 2 for ele in range(1,11)]
+    print(sqr)
 
 def t7():
     print("[7] ..Dict Comprehension")
