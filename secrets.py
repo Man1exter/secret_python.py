@@ -1,6 +1,5 @@
 import random
 import string
-#import os
 
 def movies():
     print("secret movies in python..(info about it BONUS)")
@@ -30,11 +29,14 @@ def modules():
 def password():
     print("..show the best result with strong password to your account..")
     print(" ")
+    times = int(input("how many password to show => "))
+    i = 0
     length_pass = int(input("write number of length your password => "))
     need_chars = string.ascii_letters + string.digits + '!@#$%^&*()'
-    #random.seed = (os.random(1024))
     
-    print("Your STRONG password =====> ",''.join(random.choice(need_chars) for i in range(length_pass)))
+    while i < times:
+      print("Your STRONG password =====> ",''.join(random.choice(need_chars) for i in range(length_pass)))
+      i += 1
 
 def tips_tricks():
     print("..info about tricks/tips in python and info about it..")
