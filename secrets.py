@@ -29,12 +29,12 @@ def modules():
 
 def password():
     print("..show the best result with strong password to your account..")
-
-    lenght_pass = int(input("lenght your password => "))
-    chars = string.ascii_letters + string.digits + '!@#$%^&*()'
-    random.seed = (os.random(1024))
-
-
+    print(" ")
+    length_pass = int(input("write number of length your password => "))
+    need_chars = string.ascii_letters + string.digits + '!@#$%^&*()'
+    #random.seed = (os.random(1024))
+    
+    print(''.join(random.choice(need_chars) for i in range(length_pass)))
 
 def tips_tricks():
     print("..info about tricks/tips in python and info about it..")
@@ -92,7 +92,7 @@ def menu():
     print("..CHOICE YOUR WAY TO LEARN NEW METHOD IN PYTHON..")
     print(" => [1]  => KEYLOGGER [LOGIN/PASSWORD]")
     print(" => [2]  => TIPS/TRICKS")
-    print(" => [3]  => PASSWORD(HIDE)")
+    print(" => [3]  => STRONG PASSWORD(HIDE)")
     print(" => [4]  => MODULES")
     print(" => [5]  => LONG PASSWORD")
     print(" => [6]  => MOVIES IN PYTHON")
