@@ -24,11 +24,21 @@ def modules():
     print("from ..... import ......")
     print("for example from random import randint")
 
+    numbers = int(input("How many letters/numbers must have to use with password ====> "))
+    passwords = int(input("How many passwords draw in section ====> "))
+
 
 def password():
-
     print("..show the best result with strong password to your account..")
-
+    print(" ")
+    times = int(input("how many password to show => "))
+    i = 0
+    length_pass = int(input("write number of length your password => "))
+    need_chars = string.ascii_letters + string.digits + '!@#$%^&*()'
+    
+    while i < times:
+      print("Your STRONG password =====> ",''.join(random.choice(need_chars) for i in range(length_pass)))
+      i += 1
 
 def tips_tricks():
     print("..info about tricks/tips in python and info about it..")
@@ -208,7 +218,7 @@ def menu():
     print("..CHOICE YOUR WAY TO LEARN NEW METHOD IN PYTHON..")
     print(" => [1]  => KEYLOGGER [LOGIN/PASSWORD]")
     print(" => [2]  => TIPS/TRICKS")
-    print(" => [3]  => PASSWORD(HIDE)")
+    print(" => [3]  => STRONG PASSWORD(HIDE)")
     print(" => [4]  => MODULES")
     print(" => [5]  => LONG PASSWORD")
     print(" => [6]  => MOVIES IN PYTHON")
