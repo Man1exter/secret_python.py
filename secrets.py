@@ -113,6 +113,8 @@ def choice_way():
         movies()
     elif choice_from_menu == 7:
         calendar_show()
+    elif choice_from_menu == 7:
+        with_bot()
     else:
         print("Wrong number.....")
 
@@ -214,6 +216,9 @@ def calendar_show():
     print(" ")
     print(calendar.month(year,month))
 
+def with_bot():
+    print(".....Function to speak with bot about something.....")
+
 def menu():
     print("..CHOICE YOUR WAY TO LEARN NEW METHOD IN PYTHON..")
     print(" => [1]  => KEYLOGGER [LOGIN/PASSWORD]")
@@ -223,6 +228,7 @@ def menu():
     print(" => [5]  => LONG PASSWORD")
     print(" => [6]  => MOVIES IN PYTHON")
     print(" => [7]  => CALENDAR")
+    print(" => [8]  => SPEAK WITH BOT ABOUT SOMETHING")
 
 def main():
     menu()
