@@ -1,6 +1,6 @@
 import random
 import string
-import os
+#import os
 
 def movies():
     print("secret movies in python..(info about it BONUS)")
@@ -34,7 +34,7 @@ def password():
     need_chars = string.ascii_letters + string.digits + '!@#$%^&*()'
     #random.seed = (os.random(1024))
     
-    print(''.join(random.choice(need_chars) for i in range(length_pass)))
+    print("Your STRONG password =====> ",''.join(random.choice(need_chars) for i in range(length_pass)))
 
 def tips_tricks():
     print("..info about tricks/tips in python and info about it..")
