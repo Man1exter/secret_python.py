@@ -2,6 +2,7 @@ import random
 import string
 from string import ascii_lowercase
 import calendar
+import turtle
 
 def movies():
     print("secret movies in python..(info about it BONUS)")
@@ -223,7 +224,8 @@ def with_bot():
 
 
 def turtle_star():
-    pass
+    screen = turtle.Screen()
+    screen.setup(600,600)
     
 
 def menu():
