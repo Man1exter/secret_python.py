@@ -232,12 +232,12 @@ def turtle_star():
     spiral = turtle.Turtle()
     spiral.speed(10)
 
-    c1 = input("write your 1 color => ")
-    c2 = input("write your 2 color => ")
-    c3 = input("write your 3 color => ")
-    c4 = input("write your 4 color => ")
+    color1 = input("write your 1 color => ")
+    color2 = input("write your 2 color => ")
+    color3 = input("write your 3 color => ")
+    color4 = input("write your 4 color => ")
 
-    color = (c1,c2,c3,c4)
+    color = (color1,color2,color3,color4)
 
     c = 0
     for elem in range(50):
