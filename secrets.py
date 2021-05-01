@@ -224,9 +224,27 @@ def with_bot():
 
 
 def turtle_star():
+
     screen = turtle.Screen()
     screen.setup(600,600)
+    screen.bgcolor("black")
+
     spiral = turtle.Turtle()
+    spiral.speed(10)
+
+    color = ("red","blue","purple","green")
+
+    c = 0
+    for elem in range(50):
+        spiral.forward(elem * 10)
+        spiral.right(144)
+        spiral.color(color[c])
+        if c == 3:
+            c = 0
+        else:
+            c += 1
+
+
     
 
 def menu():
