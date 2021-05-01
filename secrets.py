@@ -226,6 +226,7 @@ def with_bot():
 def turtle_star():
     screen = turtle.Screen()
     screen.setup(600,600)
+    spiral = turtle.Turtle()
     
 
 def menu():
