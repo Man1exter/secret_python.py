@@ -241,9 +241,11 @@ def turtle_star():
 
     line = 0
     for elem in range(50):
+
         spiral.forward(elem * 10)
         spiral.right(144)
         spiral.color(color[line])
+        
         if line == 3:
             line = 0
         else:
