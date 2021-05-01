@@ -226,7 +226,7 @@ def with_bot():
 def turtle_star():
 
     screen = turtle.Screen()
-    screen.setup(600,600)
+    screen.setup(900,900)
     screen.bgcolor("black")
 
     spiral = turtle.Turtle()
