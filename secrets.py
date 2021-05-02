@@ -230,7 +230,8 @@ def turtle_star():
     screen.bgcolor("black")
 
     spiral = turtle.Turtle()
-    spiral.speed(10)
+    speed_user = int(input("Write speed turtle to draw star => "))
+    spiral.speed(speed_user)
 
     color1 = input("write your 1 color => ")
     color2 = input("write your 2 color => ")
